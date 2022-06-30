@@ -64,16 +64,16 @@ ul.navbar-bawah li a {
   font-size: 30px;
 }
 
-/* @import url("https://fonts.googleapis.com/css2?family=Birthstone+Bounce&family=Noto+Serif&display=swap"); */
-
 .header {
   height: 100vh;
   position: relative;
-  background-attachment: fixed;
-  background-size: cover;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/header.jpg");
+  background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
   overflow: hidden;
-  background-image: url("../images/header.png");
 }
 
 .header .kiri {
@@ -228,7 +228,7 @@ ul.navbar-bawah li a {
 .waktu p {
   text-shadow: 0 0 5px var(--warna2);
   font-size: 46px;
-  font-family: "Noto Serif", serif;
+  font-family: "Birthstone Bounce", cursive;
   display: block;
   -webkit-margin-before: 1em;
   margin-block-start: 1em;
